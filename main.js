@@ -6,7 +6,7 @@ color = "black";
 width_of_line=1;
 canvas.addEventListener("mousedown", mymousedown);
 function mymousedown(e){
-    color=document.getElementById("color").value;
+    color=document.getElementById("color");
 width_of_line=document.getElementById("width_of_line").value;
 radius=document.getElementById("radius").value;
 mouseEvent="mousedown";
