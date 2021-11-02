@@ -6,9 +6,9 @@ color = "black";
 width_of_line=1;
 canvas.addEventListener("mousedown", mymousedown);
 function mymousedown(e){
-    color=document.getElementById("color");
+    color=document.getElementById("Color").value;
 width_of_line=document.getElementById("width_of_line").value;
-radius=document.getElementById("radius").value;
+radius=document.getElementById("Radius").value;
 mouseEvent="mousedown";
 }
 
@@ -43,7 +43,6 @@ function mymousemove(e){
         last_positition_of_x=current_position_of_mouse_x;
         last_positition_of_y=current_position_of_mouse_y;
 }
-
 
 
 
